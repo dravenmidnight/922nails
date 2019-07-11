@@ -1,0 +1,39 @@
+.masthead {
+	position: relative;
+	// background-color: var(--green-grey);
+}
+
+.header {
+	& -wrap {
+		padding-bottom: 0;
+	}
+	& -top {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+.info-wrap {
+	padding-top: 20px;
+	text-align: right;
+
+	.text {
+		vertical-align: top;
+		margin: 0;
+	}
+
+	.address-wrap {
+		color: #fff;
+		// background-color: var(--solid-spicey-red);
+	}
+
+	.phone-wrap {
+		padding-right: 20px;
+		font-weight: bold;
+		// color: var(--dark-grey-blue);
+	}
+
+	a {
+		color: inherit;
+	}
+}

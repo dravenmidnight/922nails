@@ -1,0 +1,69 @@
+.top-bar {
+		margin-bottom: 0;
+
+		.navbar-text {
+			float: none;
+			margin: 0 !important;
+		}
+
+		.alert-dismissible {
+			padding-right: 0;
+		}
+
+		.close {
+			right: .5rem;
+			opacity: .5;
+
+			&:hover {
+				opacity: .8;
+			}
+		}
+	}
+	
+.media {
+	position: relative;
+	margin-top: 0;
+	// border-bottom: 1px solid var(--leafy-green-3);
+	margin-bottom: 10px;
+
+	& -object {
+		border-radius: 50%;
+	}
+
+	& -heading {
+		font-size: 18px;
+	}
+}
+
+.media-body, 
+.media-left, 
+.media-right {
+	vertical-align: middle;
+}
+
+.full-width {
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+
+.chevron-left,
+.chevron-right {
+	font-size: 9rem;
+}
+
+.right.carousel-control,
+.left.carousel-control {
+	display: block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+// TODO: move gradients to named color vars.
+.right.carousel-control {
+	background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.2) 100%);
+}
+
+.left.carousel-control {
+	background-image: linear-gradient(to right,rgba(0,0,0,.2) 0,rgba(0,0,0,.0001) 100%);
+}

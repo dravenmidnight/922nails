@@ -1,0 +1,58 @@
+.desktop-logo {
+	display: block;
+	text-align: left;
+	pointer-events: none;
+
+		> img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+/* Mobile menu */
+
+.mobile_logo {
+	color: #fff;
+}
+
+.mobile_menu_container_v1 {
+	min-height: 54px;
+}
+
+.mobile-menu nav {
+	display: none;
+}
+
+.mobile_logo {
+	display: block;
+}
+
+/* Main Menu */
+
+.menu-main-wrap {
+	nav,
+	.nav {
+		display: inline-block;
+	}
+}
+
+.main-nav {
+	> .row {
+		position: relative;
+	}
+
+	.logo-wrap {
+		height: 30px; 
+		position: relative; 
+		display: block;
+	}
+} 
+
+.logo-link {
+	display: block;
+	margin: 0 auto;
+
+	img {
+		max-width: 200px;
+	}
+}

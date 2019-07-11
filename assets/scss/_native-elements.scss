@@ -1,0 +1,60 @@
+/* NATIVE ELEMENTS */
+
+body {
+	line-height: 1.625;
+	font-weight: normal;
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	// color: var(--paper-yellow);
+}
+
+a:focus,
+a:hover {
+	// color: var(--orange-ice);
+	text-decoration: none;
+}
+
+h3 {
+	margin: 5px;
+	font-weight: bold;
+	font-style: normal;
+	// color: var(--dark-cyan);
+	font-size: 16px;
+}
+
+h1 {
+	// color: var(--dark-green);
+	margin: 10px 0;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h2 {
+	font-weight: normal;
+	margin: 10px 0 0;
+	font-size: 22px;
+}
+
+h3 {
+	// color: var(--muted-lipstick-2);
+	margin: 10px 0 0;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+p {
+	// color: var(--dark-yellow-grey);
+	margin: .75rem 0;
+	font-size: 16px;
+	line-height: 1.625;
+}

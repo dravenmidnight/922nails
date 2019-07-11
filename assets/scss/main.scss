@@ -1,0 +1,44 @@
+// CORE
+@import 'vars.css';
+
+// CORE VENDOR
+@import 'vendor';
+
+// @import 'keyframes';
+@import 'bg-assets';
+@import 'native-elements';
+@import 'utils';
+
+// CORE PLUGINS
+@import 'btn';
+@import 'custom-bootstrap';
+@import 'mean-nav';
+@import 'magnific-popup';
+@import 'social';
+
+// MAIN TEMPLATE
+@import 'misc';
+@import 'art-block';
+@import 'main-template';
+@import 'header';
+@import 'nav';
+@import 'footer';
+
+// PAGES
+@import 'services';
+@import 'gallery';
+@import 'home';
+@import 'contact';
+
+// OPTIONS
+// @import 'booking';
+// @import 'cart';
+// @import 'login';
+// @import 'news';
+// @import 'newsletter';
+// @import 'ribbons';
+// @import 'search';
+// @import 'sidebar';
+
+// MEDIA QUERIES
+@import 'mq';

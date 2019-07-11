@@ -1,0 +1,63 @@
+.btn {
+	color: #fff;
+	background-color: var(--green-lemon);
+}
+
+.btn-default {
+	background: none;
+	color: inherit;
+	border: none;
+}
+
+.btn-primary,
+a.btn-primary {
+	background-color: var(--leafy-green-2);
+	color: #fff;
+	border: none;
+	border-radius: none;
+}
+
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary:hover,
+a.btn-primary:hover,
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+	color: #fff;
+	background-color: var(--leafy-green);
+	border-color: var(--orange-ice);
+}
+
+.btn-danger {
+	color: #fff;
+	background-color: red;
+	border-color: red;
+}
+
+.btn-danger:hover,
+.btn-danger:active {
+	background-color: var(--spicey-red-2);
+}
+
+.btn-success {
+	color: #fff;
+	background-color: var(--go-green);
+	border-color: var(--go-green);
+}
+
+.btn-success:hover,
+.btn-success:active {
+	background-color: var(--go-green-2);
+}
+
+.btn-discount,
+ul.payment-total-block li .btn-discount {
+	color: #fff;
+}

@@ -1,0 +1,105 @@
+:root {
+	/* 
+		TODO: Eliminate unused color vars.
+	*/
+	--xpt: transparent;
+
+	/* REDS */
+	--bae-creme: #E5D3CD;
+	--spicey-red:  #f63b3b;
+	--spicey-red-2: #e30101;
+	--spicey-red-3: #d9534f;
+	--spicey-red-4: #d43f3a;
+	--spicey-red-5: #dd4b39;
+	--muted-spicey-red: #ba1343;
+	--solid-spicey-red: #BF1E2E;
+	--burnt-brick: #6C4637;
+	--dark-lipstick: #7D5140;
+	--dark-muted-lipstick: #8D5A49;
+	--muted-lipstick: #a4563d;
+	--muted-lipstick-2: #AA6E5A;
+	--muted-lipstick-3: #945E4C;
+
+	--muted-lickstick-xpt: rgba(205, 171, 157, .2);
+	--muted-lipstick-xpt-2: rgba(94, 60, 49, .2);
+	
+
+	/* GREENS */	
+	--solid-muted-green: #66b458;
+	
+	--green-lemon: #8a963e;
+	--dark-lime-green: #648e0c;
+	--go-green: #1ed11b;
+	--go-green-2: #13aa10;
+	--muted-go-green: #5cb85c;
+	--muted-go-green-2: #4cae4c;
+	--dark-green: #15502B;
+	--dark-leafy-green: #545936;
+	--leafy-green: #5f6440;
+	--leafy-green-2: #787d58;
+	--leafy-green-3: #7c8448;
+	--bae-green: #aebbaa;
+	--grey-green: #a1ab95;
+	--grey-green-2: #b3bfaf;
+	--green-grey: #adb386;
+	--green-grey-2: #aebab0;
+
+	/* BLUES */
+	--fb-blue: #3B5998;
+	--royal-blue: #3739be;
+	--bold-blue: #007bcb;
+	--grey-blue: #B9C2CB;
+	--soft-grey-blue: #C4CCD4;
+	--dark-grey-blue: #485461;
+	--cyan-grey: #aeb9b9;
+	--dark-cyan: #004e37;
+	--deep-dark-cyan: #232D2F;
+
+	--skyblue-gradient: radial-gradient(ellipse at center,  
+		rgb(131,156,170) 0%,
+		rgb(109,141,164) 100%);
+
+	/* GREYS */
+	--off-black: #0d0401;
+	--off-black-2: #2C2626;
+	--thick-dark-smoke: #393233;
+	--thick-dark-smoke-2: #2E2929;
+	--deep-dark-grey: #2F1F18;
+	--solid-grey: #515151;
+	--silver-grey: #dedede;
+	--light-grey: #e6e6e6;
+
+	--muted-grey-xpt: rgba(224, 224, 224, .6);
+	
+	/* FUSCIAS */
+	--muted-plum: #8a6291;
+	--dark-plum: #8D2E9E;
+	--fuscia: #BB40CE;
+	--fuscia-2: #AD38C2;
+	--dark-fuscia: #912FA2;
+
+/* YELLOWS */
+	--light-bae: #F5F3E4;
+	--soft-yellow: #fbf7da;
+	--another-yellow: #e9e4c0;
+	--dark-yellow-grey: #40403f;
+	--dark-muted-yellow: #555936;
+	--dark-muted-yellow-2: #8a953d;
+	--hot-yellow: #fadd19;
+	--hot-yellow-2: #f3dc08;
+	--olive-grey: #60663c;
+	--bright-yellow: #EFDD19;
+	--bright-lime-yellow: #DEFF38;
+	--paper-yellow: #F0F3E4;
+	--yellow-grey: #787c5a;
+	--muted-yellow-grey: #4e503e;
+
+	--paper-yellow-2: rgb(233, 228, 192);
+
+/* NARANJAS */
+	--spicey-orange: #fb7c3c;
+	--orange-ice: #ffa914;
+	--orange-ice-2: #ffc267;
+	--orange-ice-3: #fec168;
+	--orange-creme: #f5d17f;
+}

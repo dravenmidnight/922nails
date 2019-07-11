@@ -1,0 +1,23 @@
+// CORE
+@import 'vars.css';
+
+// CORE VENDOR
+@import 'vendor';
+
+// @import 'keyframes';
+@import 'bg-assets';
+@import 'native-elements';
+@import 'utils';
+
+// CORE PLUGINS
+@import 'btn';
+@import 'custom-bootstrap';
+@import 'magnific-popup';
+@import 'social';
+
+// MAIN TEMPLATE
+@import 'footer';
+
+// PAGES
+@import 'gallery';
+@import 'home';

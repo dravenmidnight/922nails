@@ -1,0 +1,49 @@
+.contact-info p i {
+	float: left;
+}
+
+.contact-info p a {
+	display: inline-block;
+	text-align: left;
+	width: 88%;
+	color: var(--bae-cream);
+}
+
+span.address {
+	display: inline-block;
+	padding: 0 !important;
+}
+
+.contact-info p {
+	margin: 0;
+	padding: 0;
+}
+
+.form-group .form-input {
+	position: relative;
+	width: inherit;
+}
+
+.contact-form ul {
+	padding: 0;
+	margin: 0;
+}
+
+.contact-form ul li {
+	list-style-type: none;
+}
+
+ul.store-fronts {
+	list-style-type: none;
+	padding: 0;
+	border-left: 3px solid var(--light-grey);
+}
+
+ul.store-fronts li a {
+	color: inherit;
+}
+
+ul.store-fronts li a:hover,
+ul.store-fronts li a:visited {
+	text-decoration: underline;
+}

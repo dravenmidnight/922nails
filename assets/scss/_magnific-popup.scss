@@ -1,0 +1,103 @@
+#popup-banner {
+	max-width: 800px;
+	margin: 80px auto 40px;
+
+	> .dialog-wrap {
+		background-color: var(--muted-grey-xpt);
+		padding: 10px;
+		text-align: left;
+		position: relative;
+
+		> .dialog-wrap-inner {
+			padding: 20px;
+			background-color: #efefef;
+		}
+	}
+}
+
+.mfp-close-btn-in .mfp-close {
+	background: var(--solid-grey);
+	// box-shadow: 0 0 10px 0 #000;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	right: 5px;
+	top: 10px;
+	opacity: 1;
+
+	&:hover,
+	&:focus {
+		background: #777;
+	}
+}
+
+.my-mfp-zoom-in {
+	.zoom-anim-dialog {
+		opacity: 0;
+		transition: all 400ms ease-in-out;
+		transform: scale(0.8);
+	}
+
+	&.mfp-ready {
+		.zoom-anim-dialog {
+			opacity: 1;
+			transform: scale(1);
+		}
+
+		&.mfp-bg {
+			opacity: .8;
+		}
+	}
+
+	&.mfp-removing {
+		.zoom-anim-dialog {
+			transform: scale(0.8);
+			opacity: 0;
+		}
+
+		&.mfp-bg {
+			opacity: 0;
+		}
+	}
+
+	&.mfp-bg {
+		opacity: 0;
+		transition: opacity 400ms ease-out;
+	}
+}
+
+.my-mfp-slide-bottom {
+	.zoom-anim-dialog {
+		opacity: 0;
+		transition: all 400ms ease-out;
+		transform: translateY(-20px) perspective( 600px) rotateX( 10deg);
+	}
+
+	&.mfp-ready {
+		.zoom-anim-dialog {
+			opacity: 1;
+			transform: translateY(0) perspective( 600px) rotateX( 0);
+		}
+
+		&.mfp-bg {
+			opacity: .8;
+		}
+	}
+
+	&.mfp-removing {
+		.zoom-anim-dialog {
+			opacity: 0;
+			transform: translateY(-10px) perspective( 600px) rotateX( 10deg);
+		}
+
+		&.mfp-bg {
+			opacity: 0;
+		}
+	}
+
+	&.mfp-bg {
+		opacity: 0;
+		transition: opacity 400ms ease-out;
+	}
+}

@@ -1,0 +1,186 @@
+.mt-0 {
+	margin-top: 0;
+}
+.mt-5 {
+	margin-top: 5px;
+}
+.mt-10 {
+	margin-top: 10px;
+}
+.mt-15 {
+	margin-top: 15px;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.mt-25 {
+	margin-top: 25px;
+}
+.mt-30 {
+	margin-top: 30px;
+}
+.mt-35 {
+	margin-top: 35px;
+}
+.mb-0 {
+	margin-bottom: 0;
+}
+.mb-5 {
+	margin-bottom: 5px;
+}
+.mb-10 {
+	margin-bottom: 10px;
+}
+.mb-15 {
+	margin-bottom: 15px;
+}
+.mb-20 {
+	margin-bottom: 20px;
+}
+.mb-25 {
+	margin-bottom: 25px;
+}
+.mb-30 {
+	margin-bottom: 30px;
+}
+.mb-35 {
+	margin-bottom: 35px;
+}
+.pt-0 {
+	padding-top: 0;
+}
+.pt-5 {
+	padding-top: 5px;
+}
+.pt-10 {
+	padding-top: 10px;
+}
+.pt-15 {
+	padding-top: 15px;
+}
+.pt-20 {
+	padding-top: 20px;
+}
+.pt-25 {
+	padding-top: 25px;
+}
+.pt-30 {
+	padding-top: 30px;
+}
+.pt-35 {
+	padding-top: 35px;
+}
+.pb-0 {
+	padding-bottom: 0;
+}
+.pb-5 {
+	padding-bottom: 5px;
+}
+.pb-10 {
+	padding-bottom: 10px;
+}
+.pb-15 {
+	padding-bottom: 15px;
+}
+.pb-20 {
+	padding-bottom: 20px;
+}
+.pb-25 {
+	padding-bottom: 25px;
+}
+.pb-30 {
+	padding-bottom: 30px;
+}
+.pb-35 {
+	padding-bottom: 35px;
+}
+
+.img-fullwidth {
+	width: 100%;
+	height: auto;
+}
+
+.img-responsive {
+	display: inline-block;
+}
+
+// .mgbt-10 {
+// 	margin: 10px 0;
+// }
+
+// .mb-50 {
+// 	margin-bottom: 90px;
+// }
+
+/* Image bg */
+
+.image-bg {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 75%;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-position-x: center;
+	background-position-y: center;
+	background-size: cover;
+	transition: all 400ms;
+}
+
+.image-bg img,
+ul#portfolio-grid li .image-bg img {
+	display: none;
+}
+
+.youtube-player {
+	position: relative;
+	padding-bottom: 56.25%;
+	width: 100%;
+	max-width: 100%;
+	height: 0;
+	background: var(--skyblue-gradient);
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.youtube-player iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background: transparent;
+}
+
+.embed-responsive-4by3 {
+	padding-bottom: 64%;
+}
+
+.flex {
+	display: flex !important;
+
+	> *,
+	&.navbar-nav {
+		> * {
+			flex: 1;
+			justify-content: center;
+		}
+	}
+}
+
+// COLOR
+
+.txt-lemon-gold,
+.color-lemon-gold {
+	color: var(--bright-lime-yellow);
+}
+
+.wrap {
+		max-width: 720px;
+		margin-left: auto;
+		margin-right: auto;
+	}
