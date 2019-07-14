@@ -11,11 +11,11 @@
 	color: #000;
 	padding-top: .2em !important;
 }
-.bg-hot-yellow {
-	background-color: var(--hot-yellow);
+.top-bar.navbar {
+	background-color: #eee;
 }
 </style>
-<div class="bg-hot-yellow top-bar navbar navbar-default navbar-static-top alert pt-0 pb-0" role="alert">
+<div class="top-bar navbar navbar-static-top alert pt-0 pb-0 -navbar-inverse" role="alert">
 	<div class="text-center">
 		<button type="button" class="close close-top-bar btn" data-dismiss="alert" aria-label="Close">
 			<span aria-hidden="true">
@@ -24,11 +24,10 @@
 		</button>
 		<p>
 			<b>YES</b> - Your favorite Santa Monica Nail Salon is now 
-			<strong>
-				<em>Natura Nail Spa</em>...
+			<strong><i>
+				Natura Nail Spa.</i>
 			</strong> &nbsp; 
-			<a href="https://naturanailspa.com/922-2" class="btn btn-sm btn-primary" 
-				target="_blank" rel="noreferrer">Learn More</a>
+			<a href="/922/" class="btn btn-sm btn-primary">Learn More</a>
 		</p>
 	</div>
 </div>

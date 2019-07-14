@@ -4,7 +4,7 @@
 
 	</div>
 	<div class="col-md-4 mt-20 mb-20">
-		<div class="biz-hours-block navbar-inverse">
+		<div class="biz-hours-block -navbar-inverse">
 			<h4>
 				Business Hours
 			</h4>
@@ -74,33 +74,7 @@
 </div>
 <div class="container">
 
-<div class="social-wrap text-center mb-0">
-	<a href="https://www.google.com/maps/place/Natura+Nail+Spa/@34.0163497,-118.5070918,14.42z/data=!4m5!3m4!1s0x80c2a52200665bef:0xbf5857eddc40de01!8m2!3d34.0232763!4d-118.4928488"
-		class="social-icon" 
-		rel="noreferrer"
-		target="_blank"
-		itemprop="url">
-		<i class="fa fa-google-plus"></i>
-		<span class="sr-only">Visit us on Google</span>
-	</a>
-	<a href="https://www.yelp.com/biz/natura-nail-spa-santa-monica-2" 
-		class="social-icon" 
-		rel="noreferrer"
-		target="_blank" 
-		itemprop="url" 
-		title="Natura Nail Spa">
-		<i class="fa fa-yelp"></i>
-		<span class="sr-only">Check out our Yelp page</span>
-	</a>
-	<a href="https://facebook.com/naturanailspa"
-		class="social-icon" 
-		rel="noreferrer"
-		target="_blank"
-		itemprop="url">
-		<i class="fa fa-facebook"></i>
-		<span class="sr-only">Find &amp; like us on Facebook</span>
-	</a>
-</div>
+<?php include 'social.php'; ?>
 
 <hr class="hidden-lg hidden-md">
 

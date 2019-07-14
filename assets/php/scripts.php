@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Raleway&display=swap">
+<script src="https://kit.fontawesome.com/5815bc3725.js"></script>
 <script src="<?php echo $aPATH ?>js/vendor-2.js"></script>
 <script>
 $(document).ready(function() {

@@ -1,6 +1,6 @@
 <table class="table table-hover table-striped">
 	<thead>
-		<td class="lead">
+		<td class="lead h3">
 			Facial Services
 		</td>
 	</thead>

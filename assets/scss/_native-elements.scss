@@ -4,16 +4,24 @@ body {
 	line-height: 1.625;
 	font-weight: normal;
 	font-style: normal;
+
+	font-family: Raleway, 
+		-apple-system,
+		BlinkMacSystemFont,
+		"Segoe UI",
+		"Roboto",
+		"Helvetica Neue", Arial, sans-serif;
 }
 
 a {
 	text-decoration: none;
-	// color: var(--paper-yellow);
+	color: var(--a-gold);
 }
 
 a:focus,
 a:hover {
-	// color: var(--orange-ice);
+	color: var(--a-gold);
+	opacity: .8;
 	text-decoration: none;
 }
 
@@ -52,9 +60,13 @@ h4 {
 	font-style: normal;
 }
 
+h1, h2, h3, h4,
+.h1, .h2, .h3, .h4 {
+	font-family: 'Cinzel Decorative', cursive;
+}
+
 p {
-	// color: var(--dark-yellow-grey);
-	margin: .75rem 0;
+	margin: .8125em 0;
 	font-size: 16px;
 	line-height: 1.625;
 }

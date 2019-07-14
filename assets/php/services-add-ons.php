@@ -1,6 +1,6 @@
 <table class="table table-hover table-striped">
 	<thead>
-		<td class="lead">Additional Services</td>
+		<td class="lead h3">Additional Services</td>
 	</thead>
 	<tbody>
 		<tr>

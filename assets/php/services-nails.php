@@ -1,7 +1,7 @@
 <table class="table table-striped table-hover">
 	<thead>
 		<tr>
-			<td class="lead">
+			<td class="lead h3">
 				Full Set
 			</td>
 		</tr>

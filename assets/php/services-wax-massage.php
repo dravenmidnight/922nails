@@ -1,6 +1,6 @@
 <table class="table table-striped table-hover">
 	<thead>
-		<td class="lead">
+		<td class="lead h3">
 			Waxing Services
 		</td>
 	</thead>

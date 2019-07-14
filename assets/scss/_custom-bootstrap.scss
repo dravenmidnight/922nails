@@ -23,7 +23,6 @@
 .media {
 	position: relative;
 	margin-top: 0;
-	// border-bottom: 1px solid var(--leafy-green-3);
 	margin-bottom: 10px;
 
 	& -object {
@@ -61,9 +60,29 @@
 
 // TODO: move gradients to named color vars.
 .right.carousel-control {
-	background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.2) 100%);
+	background-image: linear-gradient(
+		to right,
+		rgba(0,0,0,.0001) 0,
+		rgba(0,0,0,.2) 100%
+	);
 }
 
 .left.carousel-control {
-	background-image: linear-gradient(to right,rgba(0,0,0,.2) 0,rgba(0,0,0,.0001) 100%);
+	background-image: linear-gradient(
+		to right,
+		rgba(0,0,0,.2) 0,
+		rgba(0,0,0,.0001) 100%
+	);
+}
+
+.navbar {
+	border-bottom: 0;
+}
+
+.navbar-toggle {
+	background-color: var(--a-gold) !important;
+
+	.icon-bar {
+		background-color: #fff;
+	}
 }

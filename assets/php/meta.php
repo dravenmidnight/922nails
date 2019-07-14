@@ -8,13 +8,13 @@
 
 <!-- DOCUMENT SPECIFICS -->
 <title itemprop="name">
-	<?php echo $key_phrase ?> - <?php echo $site_title ?> - Now Natura Nail Spa
+	<?php echo $key_phrase ?> - <?php echo $site_title ?>
 </title>
 <link rel="canonical" href="<?php echo $canonical_base ?>">
 
 <meta name="description" itemprop="description"
-	content="Santa Monica Nail Salon - 922 Nail Spot - your favorite neighborhood nail salon - is now Natura Nail Spa! Come in & discover the difference today.">
-<meta	name="keywords"
+	content="Santa Monica Nail Salon - YES. Your favorite neighborhood nail salon is now Natura Nail Spa. - Stop by & discover the difference today.">
+<meta name="keywords" 
 	content="Santa Monica Nail Salon, Nail Salon 90401, 922 Nail Spot, Natura Nails, Nail Salon Wilshire Blvd Santa Monica">
 
 <!-- DNS Prefetching -->
@@ -42,7 +42,7 @@
 <meta property="og:title" 
 	content="Contact us">
 <meta property="og:description" 
-	content="YES. Your favorite Santa Monica Nail Salon is now Natura Nail Spa">
+	content="YES. Your favorite Santa Monica Nail Salon is now Natura Nail Spa.">
 <meta property="og:image" 
 	content="">
 <meta property="og:url" 
@@ -50,4 +50,4 @@
 <meta property="og:type" 
 	content="">
 <meta property="og:site_name" 
-	content="Santa Monica Nail Salon - 922 Nail Spot - Now Natura Nail Spa">
+	content="Santa Monica Nail Salon - Natura Nail Spa">

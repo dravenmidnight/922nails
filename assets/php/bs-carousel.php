@@ -2,11 +2,11 @@
 	<div id="carousel-example-generic" class="carousel slide row" data-ride="carousel">
 		<div class="carousel-inner" role="listbox">
 			<div class="item active" role="banner">
-				<img src="<?php echo $aPATH ?>img/slider/2_1513648932_55_1.jpg" 
+				<img src="<?php echo $aPATH ?>img/slider/natura-fern-1440x480.jpg" 
 					alt="Professional acrilyc nails"
 					class="img-responsive">
 			</div>
-			<div class="item" role="banner">
+			<!-- <div class="item" role="banner">
 				<img src="<?php echo $aPATH ?>img/slider/2_1513648948_96_2.jpg" 
 					alt="Gorgeous, natural nails"
 					class="img-responsive">
@@ -15,7 +15,7 @@
 				<img src="<?php echo $aPATH ?>img/slider/2_1513648958_40_3.jpg" 
 					alt="Healthy, beatuiful nails"
 					class="img-responsive">
-			</div>
+			</div> -->
 		</div>
 
 		<!-- Controls -->

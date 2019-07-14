@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse navbar-static-top mb-0">
+<nav class="navbar -navbar-inverse navbar-static-top mb-0">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" 
@@ -13,10 +13,7 @@
       </button>
       <a class="navbar-brand" href="/">
 				<h1 class="navbar-text mt-0">
-					<small>
-						<del>922 Nail Spot</del>
-					</small>
-					<em>Natura Nail Spa</em>
+					Natura Nail Spa
 				</h1>
 			</a>
     </div>

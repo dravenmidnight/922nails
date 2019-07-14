@@ -12,12 +12,12 @@ $body_class = 'body';
 $site_URL = '';
 $site_img_URL = '';
 $site_logo_URL = '';
-$site_title = '922 Nail Spot';
+$site_title = 'Natura Nail Spa';
 
 $key_phrase = 'Santa Monica Nail Salon';
 
 $page_title = '';
-$canonical_base = 'https://922nailspotsantamonica.com/';
+$canonical_base = 'https://naturanailspa.com/';
 $description = '';
 $keywords = '';
 
