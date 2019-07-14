@@ -17,11 +17,11 @@
 </style>
 <div class="top-bar navbar navbar-static-top alert pt-0 pb-0 -navbar-inverse" role="alert">
 	<div class="text-center">
-		<button type="button" class="close close-top-bar btn" data-dismiss="alert" aria-label="Close">
+		<!-- <button type="button" class="close close-top-bar btn" data-dismiss="alert" aria-label="Close">
 			<span aria-hidden="true">
 				&times;
 			</span>
-		</button>
+		</button> -->
 		<p>
 			<b>YES</b> - Your favorite Santa Monica Nail Salon is now 
 			<strong><i>
