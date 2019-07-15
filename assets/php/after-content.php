@@ -1,5 +1,5 @@
 	</main>
-	<footer class="footer text-center -navbar-inverse">
+	<footer class="footer text-center">
 <?php
 	include 'footer.php';
 ?>

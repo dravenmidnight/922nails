@@ -4,7 +4,7 @@
 
 	</div>
 	<div class="col-md-4 mt-20 mb-20">
-		<div class="biz-hours-block -navbar-inverse">
+		<div class="biz-hours-block">
 			<h4>
 				Business Hours
 			</h4>
@@ -29,8 +29,8 @@
 			<p>
 				<a href="<?php echo $google_reviews_URL ?>" target="_blank"
 					rel="noreferrer">
-					<img src="<?php echo $aPATH ?>img/thumbs/google-reviews.png" 
-						alt="Read our Google reviews.">
+					<img src="<?php echo $aPATH ?>img/_google-review-btn.png" 
+						alt="Read our Google reviews." height="80">
 				</a>
 			</p>
 

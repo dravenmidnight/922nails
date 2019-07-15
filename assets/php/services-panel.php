@@ -18,13 +18,13 @@
 						<img class="media-object" src="<?php echo $aPATH ?>img/thumbs/c.jpg" alt="Refreshing Manicure services">
 					</a>
 				</div>
-				<div class="media-body badge-decorator">
+				<div class="media-body">
 					<a href="/services/">
+						<i class="fas fa-bookmark pull-right fa-3x"></i>
 						<h4 class="media-heading">
 							MANICURE SERVICES
 						</h4>
 					</a>
-					<!-- <h4 class="">Media heading</h4> -->
 					<p>
 						For everyday care, manicure service to keep your nails bright &amp; healthy.
 					</p>
@@ -37,8 +37,9 @@
 							alt="Deluxe Pedicure service with massage">
 					</a>
 				</div>
-				<div class="media-body badge-decorator">
+				<div class="media-body">
 					<a href="/services/">
+						<i class="fas fa-bookmark pull-right fa-3x"></i>
 						<h4 class="media-heading">
 							DELUXE PEDICURE
 						</h4>
@@ -55,8 +56,9 @@
 							alt="Services for all your waxing needs">
 					</a>
 				</div>
-				<div class="media-body badge-decorator">
+				<div class="media-body">
 					<a href="/services/">
+						<i class="fas fa-bookmark pull-right fa-3x"></i>
 						<h4 class="media-heading">
 							WAXING SERVICES
 						</h4>	
@@ -73,13 +75,13 @@
 							alt="Manicures for every occasion">
 					</a>
 				</div>
-				<div class="media-body badge-decorator">
+				<div class="media-body">
 					<a href="/services/">
+						<i class="fas fa-bookmark pull-right fa-3x"></i>
 						<h4 class="media-heading">
 							MANICURE SERVICES
 						</h4>
 					</a>
-					<!-- <h4 class="">Media heading</h4> -->
 					<p>
 						For everyday care, manicure service to keep your nails bright &amp; healthy.
 					</p>
