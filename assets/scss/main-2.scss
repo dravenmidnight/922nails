@@ -1,5 +1,14 @@
-// CORE
-@import 'vars.css';
+:root {
+	--a-gold: #ab9b5b;
+  --btn-green: #507a07;
+  --leafy-green: #5f6440;
+
+  --skyblue-gradient: radial-gradient(
+    ellipse at center,  
+		rgb(131,156,170) 0%,
+    rgb(109,141,164) 100%
+  );
+}
 
 // CORE VENDOR
 @import 'vendor';

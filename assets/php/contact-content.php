@@ -4,12 +4,8 @@
 		<h4>
 			Phone
 		</h4>
-		<p>
-			<a href="tel: 310-395-5652" class="btn btn-primary" target="_blank">
-				<i class="fa fa-phone icon-phone"></i> 
-				310-395-5652
-			</a>
-		</p>
+		<?php include 'biz-phone.php'; ?>
+
 		<hr>
 		<h4>
 			Address
@@ -58,6 +54,7 @@
 	</div>
 
 	<div class="col-md-9">
+		<hr class="hidden-lg hidden-md">
 		<h4>Map</h4>
 		<div id="map" itemscope itemprop="hasMap" itemtype="http://schema.org/Map">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.802478657267!2d-118.49503748496006!3d34.023280726703426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a52200665bef%3A0xbf5857eddc40de01!2sNatura+Nail+Spa!5e0!3m2!1sen!2sus!4v1548826705071"
@@ -80,6 +77,7 @@
 	}
 
 	.hours-list li {
-		line-height: 2.25;
+		line-height: 1.625;
+		letter-spacing: -.025em;
 	}
 </style>

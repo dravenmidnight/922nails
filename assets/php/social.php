@@ -3,6 +3,7 @@
 		class="social-icon" 
 		target="_blank"
 		rel="noreferrer"
+		title="Natura Nail Spa on Google"
 		itemprop="url">
 		<i class="fab fa-google"></i>
 	</a>
@@ -10,7 +11,8 @@
 		class="social-icon" 
 		target="_blank"
 		rel="noreferrer"
-		itemprop="url">
+		itemprop="url"
+		title="Natura Nail Spa on Instagram">
 		<i class="fab fa-instagram"></i>
 	</a>
 	<a href="https://twitter.com/naturanailspa" 
@@ -18,7 +20,7 @@
 		target="_blank" 
 		rel="noreferrer"
 		itemprop="url" 
-		title="Natura Nail Spa">
+		title="Natura Nail Spa on Twitter">
 		<i class="fab fa-twitter"></i>
 	</a>
 	<a href="https://www.yelp.com/biz/natura-nail-spa-santa-monica-2" 
@@ -26,13 +28,14 @@
 		target="_blank" 
 		rel="noreferrer"
 		itemprop="url" 
-		title="Natura Nail Spa">
+		title="Natura Nail Spa on Yelp">
 		<i class="fab fa-yelp"></i>
 	</a>
 	<a href="https://facebook.com/naturanailspa"
 		class="social-icon" 
 		target="_blank"
 		rel="noreferrer"
+		title="Natura Nail Spa on Facebook"
 		itemprop="url">
 		<i class="fab fa-facebook-f"></i>
 	</a>

@@ -1,4 +1,4 @@
-<nav class="navbar -navbar-inverse navbar-static-top mb-0">
+<nav class="navbar navbar-static-top mb-0">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" 

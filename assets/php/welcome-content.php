@@ -16,17 +16,13 @@
 </header>
 
 <article class="mb-20 container">
-	<div class="">
-		<p class="lead">Located at 922 Wilshire Blvd in breezy Santa Monica, CA - <small><i>formerly 922 Nail Spot</i></small> - is under new ownership, <i>recently renovated</i>, &amp; <b>completely upgraded</b> by Interior Designer, <b>Tomas Calderon</b>; and has been completely transformed into lavish, relaxing <b><i>Natura Nail Spa</i></b>.
-		</p>
-		<p>
-			At <b>Natura Nail Spa</b> we take pride in providing the highest quality service paired with remarkable products from trusted brands you know &amp; love to help you transform &amp; feel like a refreshing new you.
-		</p>
-	</div>
-	<?php include 'aside-walk-ins.php'; ?>
+	<?php 
+		// include 'about-block.php'; 
+		include 'aside-walk-ins.php';	
+	?>
 
 	<div class="">
-		<p>
+		<p class="lead">
 			All your nail care needs with variety of nail &amp; beauty services are available at Natura. Everything from Mani Pedis to eyelashes, waxing &amp; more.
 		</p>
 		<p>		
@@ -35,10 +31,11 @@
 		<p>
 			What are you waiting for? Discover the difference today.
 		</p>
-		<p>
-			<a href="https://www.yelp.com/biz/natura-nail-spa-santa-monica-2" class="btn btn-primary" target="_blank" rel="noreferrer">
-			<i class="fab fa-yelp"></i>
-			Request an Appointment</a>
+		<p class="text-center">
+			<a href="https://www.yelp.com/biz/natura-nail-spa-santa-monica-2" class="btn btn-primary btn-lg" target="_blank" rel="noreferrer">
+				<i class="fab fa-yelp"></i>
+				Request an Appointment
+			</a>
 		</p>
 		<p>
 			<small>
