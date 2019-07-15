@@ -10,7 +10,7 @@
 </section>
 <section class="container">
 <?php
-	include 'services-panel.php';
+	include 'services-tab.php';
 ?>
 
 </section>

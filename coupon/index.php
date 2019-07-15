@@ -9,13 +9,13 @@
 </div>
 
 <div class="container">
-	<p class="lead">
-		Mention 922 when you book your first Mani Pedi &amp; receive <i><b>$5 off</b> your order!</i>
-	</p>
 	<?php
 		include '../assets/php/aside-walk-ins.php';
 	?>
 
+	<p class="lead">
+		Mention 922 when you book your first Mani Pedi &amp; <b>get $5 off</b> your order.
+	</p>
 </div>
 <?php
 	include '../assets/php/after-content.php';

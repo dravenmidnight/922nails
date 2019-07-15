@@ -11,8 +11,9 @@
 	<p class="text-widget">
 		<i class="fa fa-quote-left"></i>
 		&nbsp;
-		<em>
-			Walk-ins Welcome – Gift Certificates Available
-		</em>
+		Walk-ins Welcome – 
+		<small>
+			<em>Gift Certificates Available</em>
+		</small>
 	</p>
 </aside>

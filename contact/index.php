@@ -2,7 +2,7 @@
 	include '../assets/php/before-content.php';
 ?>
 
-<div class="jumbotron">
+<div class="jumbotron contact">
 	<div class="container">
 		<h1>Contact</h1>
 	</div>

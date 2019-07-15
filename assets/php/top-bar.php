@@ -27,7 +27,7 @@
 			<strong><i>
 				Natura Nail Spa.</i>
 			</strong> &nbsp; 
-			<a href="/922/" class="btn btn-sm btn-primary">Learn More</a>
+			<a href="/about/" class="btn btn-sm btn-primary">More About</a>
 		</p>
 	</div>
 </div>

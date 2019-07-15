@@ -28,7 +28,7 @@
 				<a href="<?php echo $google_reviews_URL ?>" target="_blank"
 					rel="noreferrer">
 					<img src="<?php echo $aPATH ?>img/_google-review-btn.png" 
-						alt="Read our Google reviews." height="80">
+						alt="Read our Google reviews." height="64">
 				</a>
 			</p>
 			<hr>
