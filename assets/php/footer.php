@@ -57,11 +57,6 @@
 				border-top-color: var(--a-gold);
 			}
 			</style>
-
-			<!-- <p class="biz-phone text-center mb-20">
-				<a class="btn btn-primary btn-md" target="_blank" href="tel:3103955652" rel="noreferrer">
-					CALL: 310-395-5652</a>
-			</p> -->
 			<?php include 'biz-phone.php'; ?>
 
 			<hr>
@@ -72,25 +67,27 @@
 <div class="container">
 <?php include 'social.php'; ?>
 
+<style>
+	.fs-90 {
+		font-size: 90%;
+	}
+</style>
 	<hr class="hidden-lg hidden-md">
 	<div class="copyright-info mb-30">
-		<p>
+		<p class="fs-90">
 			<a href="/">
 				© 2018 - 2019 <b>Natura Nail Spa</b>
 			</a>
 			<i>All Rights Reserved</i>
 		</p>
 	</div>
+
 	<a class="sr-only" href="https://naturanailspa.com/" 
-		title="Santa Monica Nail Salon" 
-		rel="noreferrer"
-		target="_blank">
+		title="Santa Monica Nail Salon">
 		<h5>Santa Monica Nail Salon</h5>
 	</a>
 	<a class="sr-only" href="https://naturanailspa.com/" 
-		title="Nail Salon Santa Monica" 
-		rel="noreferrer"
-		target="_blank">
+		title="Nail Salon Santa Monica">
 		<h6>Nail Salon 90401</h6>
 	</a>
 </div>
