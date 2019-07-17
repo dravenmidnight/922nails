@@ -6105,7 +6105,7 @@ button.close {
   z-index: 1043;
   position: fixed;
   outline: none !important;
-  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .mfp-container {
@@ -6996,6 +6996,16 @@ ul.payment-total-block li .btn-discount {
   vertical-align: middle;
 }
 
+.media-list.nav-tabs {
+  padding-left: 15px;
+}
+.media-list.nav-tabs h4 {
+  font-size: 18px;
+}
+.media-list.nav-tabs p {
+  font-size: 14px;
+}
+
 .full-width {
   margin: 0 auto;
   width: 100%;
@@ -7011,7 +7021,6 @@ ul.payment-total-block li .btn-discount {
 .left.carousel-control {
   display: block;
   height: 100%;
-  vertical-align: middle;
 }
 
 .right.carousel-control {

@@ -40,6 +40,18 @@
 	vertical-align: middle;
 }
 
+.media-list.nav-tabs {
+	padding-left: 15px;
+
+	h4 {
+		font-size: 18px;
+	}
+
+	p {
+		font-size: 14px;
+	}
+}
+
 .full-width {
 	margin: 0 auto;
 	width: 100%;
@@ -55,7 +67,7 @@
 .left.carousel-control {
 	display: block;
 	height: 100%;
-	vertical-align: middle;
+	// vertical-align: middle;
 }
 
 // TODO: move gradients to named color vars.
