@@ -23,10 +23,14 @@
 			</span>
 		</button> -->
 		<p>
-			<b>YES</b> - Your favorite Santa Monica Nail Salon is now 
-			<strong><i>
-				Natura Nail Spa.</i>
-			</strong> &nbsp; 
+			<b>YES</b> - Your favorite
+			<strong>
+				Santa Monica Nail Salon
+			</strong> is now 
+			<strong>
+				Natura Nail Spa.
+			</strong> 
+			&nbsp; 
 			<a href="/about/" class="btn btn-sm btn-primary">More About</a>
 		</p>
 	</div>

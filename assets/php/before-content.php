@@ -6,7 +6,7 @@
 	include 'meta.php';
 ?>
 
-	<link rel="stylesheet" href="<?php echo $aPATH ?>css/main-2.css">
+	<link rel="stylesheet" href="<?php echo $aPATH ?>css/main.css">
 </head>
 <body class="<?php echo $body_class ?> ">
 <?php

@@ -1,5 +1,14 @@
-// CORE
-@import 'vars.css';
+:root {
+	--a-gold: #ab9b5b;
+  --btn-green: #507a07;
+  --leafy-green: #5f6440;
+
+  --skyblue-gradient: radial-gradient(
+    ellipse at center,  
+		rgb(131,156,170) 0%,
+    rgb(109,141,164) 100%
+  );
+}
 
 // CORE VENDOR
 @import 'vendor';
@@ -12,33 +21,11 @@
 // CORE PLUGINS
 @import 'btn';
 @import 'custom-bootstrap';
-@import 'mean-nav';
-@import 'magnific-popup';
 @import 'social';
 
 // MAIN TEMPLATE
-@import 'misc';
-@import 'art-block';
-@import 'main-template';
-@import 'header';
-@import 'nav';
 @import 'footer';
 
 // PAGES
-@import 'services';
 @import 'gallery';
 @import 'home';
-@import 'contact';
-
-// OPTIONS
-// @import 'booking';
-// @import 'cart';
-// @import 'login';
-// @import 'news';
-// @import 'newsletter';
-// @import 'ribbons';
-// @import 'search';
-// @import 'sidebar';
-
-// MEDIA QUERIES
-@import 'mq';
