@@ -8,8 +8,36 @@
   rgb(131,156,170) 0%,
     rgb(109,141,164) 100%
   );
+  --muted-grey-xpt: rgba(224, 224, 224, .6);
 }
 
+/* latin */
+@font-face {
+  font-family: "Cinzel Decorative";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Cinzel Decorative Regular"), local("CinzelDecorative-Regular"), url(https://fonts.gstatic.com/s/cinzeldecorative/v8/daaCSScvJGqLYhG8nNt8KPPswUAPni7TTMxpazyD.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Raleway"), local("Raleway-Regular"), url(https://fonts.gstatic.com/s/raleway/v13/1Ptug8zYS_SKggPNyCMIT4ttDfCmxA.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Raleway"), local("Raleway-Regular"), url(https://fonts.gstatic.com/s/raleway/v13/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 /*!
  * Bootstrap v3.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 Twitter, Inc.
@@ -6239,7 +6267,6 @@ button::-moz-focus-inner {
   color: #fff;
   font-style: normal;
   font-size: 28px;
-  font-family: Arial, Baskerville, monospace;
 }
 
 .mfp-close:hover,
@@ -6606,32 +6633,6 @@ img.mfp-img {
     padding-right: 6px;
   }
 }
-.mfp-ie7 .mfp-img {
-  padding: 0;
-}
-
-.mfp-ie7 .mfp-bottom-bar {
-  width: 600px;
-  left: 50%;
-  margin-left: -300px;
-  margin-top: 5px;
-  padding-bottom: 5px;
-}
-
-.mfp-ie7 .mfp-container {
-  padding: 0;
-}
-
-.mfp-ie7 .mfp-content {
-  padding-top: 44px;
-}
-
-.mfp-ie7 .mfp-close {
-  top: 0;
-  right: 0;
-  padding-top: 0;
-}
-
 /* BG IMAGES */
 .bg-skyblue-gradient {
   background: var(--skyblue-gradient);
@@ -6998,6 +6999,7 @@ ul.payment-total-block li .btn-discount {
 
 .media-list.nav-tabs {
   padding-left: 15px;
+  margin-top: 15px;
 }
 .media-list.nav-tabs h4 {
   font-size: 18px;
@@ -7050,6 +7052,83 @@ ul.payment-total-block li .btn-discount {
 
 .carousel-indicators li {
   border: 1px solid var(--a-gold);
+}
+
+#popup-banner {
+  max-width: 800px;
+  margin: 80px auto 40px;
+}
+#popup-banner > .dialog-wrap {
+  background-color: var(--muted-grey-xpt);
+  padding: 10px;
+  text-align: left;
+  position: relative;
+}
+#popup-banner > .dialog-wrap > .dialog-wrap-inner {
+  padding: 20px;
+  background-color: #efefef;
+}
+
+.mfp-close-btn-in .mfp-close {
+  background: var(--solid-grey);
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  right: 5px;
+  top: 10px;
+  opacity: 1;
+}
+.mfp-close-btn-in .mfp-close:hover, .mfp-close-btn-in .mfp-close:focus {
+  background: #777;
+}
+
+.my-mfp-zoom-in .zoom-anim-dialog {
+  opacity: 0;
+  transition: all 400ms ease-in-out;
+  transform: scale(0.8);
+}
+.my-mfp-zoom-in.mfp-ready .zoom-anim-dialog {
+  opacity: 1;
+  transform: scale(1);
+}
+.my-mfp-zoom-in.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+.my-mfp-zoom-in.mfp-removing .zoom-anim-dialog {
+  transform: scale(0.8);
+  opacity: 0;
+}
+.my-mfp-zoom-in.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+.my-mfp-zoom-in.mfp-bg {
+  opacity: 0;
+  transition: opacity 400ms ease-out;
+}
+
+.my-mfp-slide-bottom .zoom-anim-dialog {
+  opacity: 0;
+  transition: all 400ms ease-out;
+  transform: translateY(-20px) perspective(600px) rotateX(10deg);
+}
+.my-mfp-slide-bottom.mfp-ready .zoom-anim-dialog {
+  opacity: 1;
+  transform: translateY(0) perspective(600px) rotateX(0);
+}
+.my-mfp-slide-bottom.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+.my-mfp-slide-bottom.mfp-removing .zoom-anim-dialog {
+  opacity: 0;
+  transform: translateY(-10px) perspective(600px) rotateX(10deg);
+}
+.my-mfp-slide-bottom.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+.my-mfp-slide-bottom.mfp-bg {
+  opacity: 0;
+  transition: opacity 400ms ease-out;
 }
 
 .main-social-wrap {

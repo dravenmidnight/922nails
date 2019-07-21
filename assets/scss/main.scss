@@ -8,6 +8,8 @@
 		rgb(131,156,170) 0%,
     rgb(109,141,164) 100%
   );
+
+  --muted-grey-xpt: rgba(224, 224, 224, .6);
 }
 
 // CORE VENDOR
@@ -21,6 +23,7 @@
 // CORE PLUGINS
 @import 'btn';
 @import 'custom-bootstrap';
+@import 'magnific-popup';
 @import 'social';
 
 // MAIN TEMPLATE

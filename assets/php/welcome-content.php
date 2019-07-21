@@ -25,23 +25,20 @@
 		<p class="lead">
 			All your nail care needs with variety of nail &amp; beauty services are available at Natura. Everything from Mani Pedis to eyelashes, waxing &amp; more.
 		</p>
-		<p>		
+		<p>
 			So stop by, sit back &amp; relax in one of our comfy personal sofas while our professional staff pampers you from head to toe, giving you a fresh, revitalizing appearance.
 		</p>
 		<p>
 			<small>
-				Mention 922 when you book your first Mani Pedi &amp; receive <b>$5 off</b> your order.
+				And mention 922 when you book your first Mani Pedi to receive <b>$5 off</b> your order!
 			</small>
 		</p>
-		<!-- <p>&nbsp;</p> -->
 		<p class="text-center ">
 			<a href="https://www.yelp.com/biz/natura-nail-spa-santa-monica-2" class="btn btn-primary btn-lg" target="_blank" rel="noreferrer">
 				<i class="fab fa-yelp"></i>
 				Request an Appointment
 			</a>
 		</p>
-		<p>&nbsp;</p>
 		<hr>
-		<p>&nbsp;</p>
 	</div>
 </article>

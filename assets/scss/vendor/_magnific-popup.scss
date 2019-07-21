@@ -153,7 +153,7 @@ button::-moz-focus-inner {
   color: #fff;
   font-style: normal;
   font-size: 28px;
-  font-family: Arial, Baskerville, monospace;
+  // font-family: Arial, Baskerville, monospace;
 }
 
 .mfp-close:hover,
@@ -523,30 +523,4 @@ img.mfp-img {
     padding-left: 6px;
     padding-right: 6px;
   }
-}
-
-.mfp-ie7 .mfp-img {
-  padding: 0;
-}
-
-.mfp-ie7 .mfp-bottom-bar {
-  width: 600px;
-  left: 50%;
-  margin-left: -300px;
-  margin-top: 5px;
-  padding-bottom: 5px;
-}
-
-.mfp-ie7 .mfp-container {
-  padding: 0;
-}
-
-.mfp-ie7 .mfp-content {
-  padding-top: 44px;
-}
-
-.mfp-ie7 .mfp-close {
-  top: 0;
-  right: 0;
-  padding-top: 0;
 }

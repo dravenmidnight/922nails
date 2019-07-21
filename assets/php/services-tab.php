@@ -1,4 +1,32 @@
 <style>
+.service-button {
+  bottom: 10px;
+  left: 15px;
+  z-index: 10;
+}
+.a-block {
+  display: block;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+/* .a-block:hover {
+  opacity:
+} */
+.a-block > * {
+  position: absolute;
+}
+.a-block .title {
+  z-index: 10;
+  width: 100%;
+  background-color: rgba(255,255,255,.75);
+  margin: 0;
+  padding: 10px 15px;
+  left: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .04em;
+}
 .tile {
   background-size: cover;
   background-position: center center;
@@ -35,30 +63,61 @@ li[role=presentation] p {
 
 <div class="mb-20 text-center">
 	<h3>
-		VISIT OUR NAIL SALON
+		OUR SALON SERVICES
 	</h3>
 </div>
 <div class="row">
   <div class="tab-content col-lg-6 col-md-6">
     <div role="tabpanel" class="tab-pane fade in active" id="hands">
-      <a href="/services/">
-        <img src="<?php echo $aPATH ?>img/_hands-600x360.jpg" class="img-responsive full-width" alt="Services for your Hands">
+      <a href="/services/" class="a-block embed-responsive embed-responsive-4by3">
+        <h5 class="title">
+          Services for Hands
+        </h5>
+        <button class="btn btn-sm service-button btn-primary">
+          View Services
+        </button>
+        <img src="<?php echo $aPATH ?>img/_hands-600x360.jpg" 
+          class="img-responsive full-width embed-responsive-item" 
+          alt="Services for Hands">
       </a>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="feet">
-      <a href="/services/">
-        <img src="<?php echo $aPATH ?>img/_feet-600x360.jpg" class="img-responsive full-width"
-          alt="Services for your Feet">
+      <a href="/services/" class="a-block embed-responsive embed-responsive-4by3">
+        <h5 class="title">
+          Services for Feet
+        </h5>
+        <button class="btn btn-sm service-button btn-primary">
+          View Services
+        </button>
+        <img src="<?php echo $aPATH ?>img/_feet-600x360.jpg" 
+          class="img-responsive full-width embed-responsive-item" 
+          alt="Services for Feet">
       </a>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="wax">
-      <a href="/services/">
-        <img src="<?php echo $aPATH ?>img/_waxing-600x360.jpg" class="img-responsive full-width" alt="Waxing Services">
+      <a href="/services/" class="a-block embed-responsive embed-responsive-4by3">
+        <h5 class="title">
+          Waxing Services
+        </h5>
+        <button class="btn btn-sm service-button btn-primary">
+          View Services
+        </button>
+        <img src="<?php echo $aPATH ?>img/_waxing-600x360.jpg" 
+          class="img-responsive full-width embed-responsive-item" 
+          alt="Waxing Services">
       </a>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="extras">
-      <a href="/services/">
-        <img src="<?php echo $aPATH ?>img/_eyes-extras-600x360.jpg" class="img-responsive full-width" alt="Eyelashes & Extras">
+      <a href="/services/" class="a-block embed-responsive embed-responsive-4by3">
+        <h5 class="title">
+          Eyes &amp; Extras
+        </h5>
+        <button class="btn btn-sm service-button btn-primary">
+          View Services
+        </button>
+        <img src="<?php echo $aPATH ?>img/_eyes-extras-600x360.jpg" 
+          class="img-responsive full-width embed-responsive-item" 
+          alt="Eyes & Extras">
       </a>
     </div>
   </div>
@@ -67,8 +126,9 @@ li[role=presentation] p {
   <ul class="nav nav-tabs col-lg-6 col-md-6 media-list nav-pills nav-stacked" role="tablist">
     <li role="presentation" class="active media">
       <div class="media-left">
-        <a href="#hands" aria-controls="hands" role="tab" data-toggle="tab" class="tile thumbnail bg-hands">
-          <!-- <img class="media-object" src="<?php echo $aPATH ?>img/thumbs/c.jpg" alt="Refreshing Manicure services"> -->
+        <a href="#hands" aria-controls="hands" role="tab" 
+          data-toggle="tab" class="tile thumbnail bg-hands">
+          <span class="sr-only">Services for Hands<span>
         </a>
       </div>
       <div class="media-body">
@@ -85,9 +145,9 @@ li[role=presentation] p {
     </li>
     <li role="presentation" class="media">
       <div class="media-left">
-      <a href="#feet" aria-controls="feet" role="tab" data-toggle="tab" class="tile thumbnail bg-feet">
-          <!-- <img class="media-object" src="<?php echo $aPATH ?>img/thumbs/a.jpg" 
-            alt="Deluxe Pedicure service with massage"> -->
+        <a href="#feet" aria-controls="feet" role="tab" 
+          data-toggle="tab" class="tile thumbnail bg-feet">
+          <span class="sr-only">Services for Feet<span>
         </a>
       </div>
       <div class="media-body">
@@ -104,9 +164,9 @@ li[role=presentation] p {
     </li>
     <li role="presentation" class="media">
       <div class="media-left">
-        <a href="#wax" aria-controls="wax" role="tab" data-toggle="tab" class="tile thumbnail bg-wax">
-          <!-- <img class="media-object" src="<?php echo $aPATH ?>img/thumbs/waxing_service.jpg" 
-            alt="Services for all your waxing needs"> -->
+        <a href="#wax" aria-controls="wax" role="tab" 
+          data-toggle="tab" class="tile thumbnail bg-wax">
+          <span class="sr-only">Waxing Services<span>
         </a>
       </div>
       <div class="media-body">
@@ -123,9 +183,9 @@ li[role=presentation] p {
     </li>
     <li role="presentation" class="media">
       <div class="media-left">
-      <a href="#extras" aria-controls="extras" role="tab" data-toggle="tab" class="tile thumbnail bg-extras">
-          <!-- <img class="media-object" src="<?php echo $aPATH ?>img/thumbs/c.jpg" 
-            alt="Manicures for every occasion"> -->
+        <a href="#extras" aria-controls="extras" role="tab" 
+          data-toggle="tab" class="tile thumbnail bg-extras">
+          <span class="sr-only">Eyes &amp; Extras<span>
         </a>
       </div>
       <div class="media-body">
