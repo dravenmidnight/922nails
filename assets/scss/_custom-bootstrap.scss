@@ -34,10 +34,27 @@
 	}
 }
 
-.media-body, 
-.media-left, 
-.media-right {
-	vertical-align: middle;
+.badge {
+	background-color: #444;
+	font-weight: normal;
+	letter-spacing: .04em;
+	padding: .32em .8em;
+	line-height: 1;
+}
+
+.close-top-bar {
+	padding: .6em !important;
+	color: #000;
+	padding-top: .2em !important;
+}
+
+.top-bar.navbar {
+	background-color: #eee;
+}
+
+.media-heading {
+	font-size: 15px;
+	font-weight: bold;
 }
 
 .media-list.nav-tabs {
@@ -68,7 +85,6 @@
 .left.carousel-control {
 	display: block;
 	height: 100%;
-	// vertical-align: middle;
 }
 
 // TODO: move gradients to named color vars.

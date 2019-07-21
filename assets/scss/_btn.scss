@@ -32,7 +32,6 @@ a.btn-primary:hover,
 .open>.dropdown-toggle.btn-primary:hover {
 	color: #fff;
 	background-color: var(--leafy-green);
-	border-color: var(--orange-ice);
 }
 
 .btn-danger {
@@ -41,20 +40,8 @@ a.btn-primary:hover,
 	border-color: red;
 }
 
-.btn-danger:hover,
-.btn-danger:active {
-	background-color: var(--spicey-red-2);
-}
-
 .btn-success {
 	color: #fff;
-	background-color: var(--go-green);
-	border-color: var(--go-green);
-}
-
-.btn-success:hover,
-.btn-success:active {
-	background-color: var(--go-green-2);
 }
 
 .btn-discount,

@@ -13,7 +13,7 @@
 <link rel="canonical" href="<?php echo $canonical_base ?>">
 
 <meta name="description" itemprop="description"
-	content="Santa Monica Nail Salon - YES. Your favorite neighborhood nail salon is now Natura Nail Spa. - Stop by & discover the difference today.">
+	content="Santa Monica Nail Salon - YES. Your favorite neighborhood nail salon is now Natura Nail Spa.">
 <meta name="keywords" 
 	content="Santa Monica Nail Salon, Nail Salon 90401, 922 Nail Spot, Natura Nails, Nail Salon Wilshire Blvd Santa Monica">
 
@@ -32,9 +32,9 @@
 
 <!-- LOCAL BUSINESS -->
 <meta name="logo" itemprop="logo"
-	content="uploads/s22naiy5x58y6/attach/1510909933_untitled-4.png">
+	content="">
 <meta name="image" itemprop="image" 
-	content="uploads/s22naiy5x58y6/attach/1510909933_untitled-4.png">
+	content="">
 <meta name="telephone" itemprop="telephone"
 	content="310-395-5652">
 <meta name="priceRange" itemprop="priceRange"

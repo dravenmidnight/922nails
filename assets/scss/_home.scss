@@ -1,7 +1,6 @@
 .home-about-us {
 	.title {
 		margin-left: 10px;
-		color: var(--spicey-red);
 	}
 
 	.content {
@@ -14,14 +13,11 @@
 }
 
 .parallax1 {
-	margin: 0;
 	background-size: contain;
 	padding: 50px 0;
 	min-height: 100px;
 	position: relative;
 	background-image: var(--skyblue-gradient);
-	border-top: 1px solid var(--soft-yellow);
-	border-bottom: 1px solid var(--soft-yellow);
 	text-align: center;
 }
 

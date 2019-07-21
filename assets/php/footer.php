@@ -48,15 +48,6 @@
 				<span itemprop="postalCode">90401</span>
 			</address>
 			<hr>
-			<style>
-			hr {
-				width: 20%;
-				margin-left: auto;
-				margin-right: auto;
-
-				border-top-color: var(--a-gold);
-			}
-			</style>
 			<?php include 'biz-phone.php'; ?>
 
 			<hr>
@@ -67,11 +58,6 @@
 <div class="container">
 <?php include 'social.php'; ?>
 
-<style>
-	.fs-90 {
-		font-size: 90%;
-	}
-</style>
 	<hr class="hidden-lg hidden-md">
 	<div class="copyright-info mb-30">
 		<p class="fs-90">

@@ -1,8 +1,3 @@
-<style>
-	.fs-90 {
-		font-size: 90%;
-	}
-</style>
 <div class="copyright-info">
 	<p class="fs-90">
 		<a href="<?php echo $vPATH ?>">

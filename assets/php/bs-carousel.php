@@ -21,11 +21,6 @@
 					alt="Waxing Services"
 					class="img-responsive">
 			</div>
-			<!-- <div class="item" role="banner">
-				<img src="<?php echo $aPATH ?>img/_eyes-extras-1440x480.jpg" 
-					alt="Eyelash services & extras"
-					class="img-responsive">
-			</div> -->
 		</div>
 
 		<!-- Controls -->
@@ -43,7 +38,6 @@
 			<li data-target="#bs-carousel" data-slide-to="1"></li>
 			<li data-target="#bs-carousel" data-slide-to="2"></li>
 			<li data-target="#bs-carousel" data-slide-to="3"></li>
-			<!-- <li data-target="#bs-carousel" data-slide-to="4"></li> -->
 		</ol>
 
 	</div>

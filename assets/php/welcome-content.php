@@ -17,7 +17,6 @@
 
 <article class="mb-20 container">
 	<?php 
-		// include 'about-block.php'; 
 		include 'aside-walk-ins.php';	
 	?>
 
@@ -30,7 +29,7 @@
 		</p>
 		<p>
 			<small>
-				And mention 922 when you book your first Mani Pedi to receive <b>$5 off</b> your order!
+				Mention 922 when you book your first Mani Pedi <b>to get $5 off your order.</b>
 			</small>
 		</p>
 		<p class="text-center ">
