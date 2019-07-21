@@ -9,24 +9,24 @@ $google_site_ver = '3McBjZr82sPKFrVWJYju_LztmrivL2jjUTTBAu-5WrE';
 
 $body_class = 'body';
 
-$site_URL = '';
-$site_img_URL = '';
-$site_logo_URL = '';
+// $site_URL = '';
+// $site_img_URL = '';
+// $site_logo_URL = '';
 $site_title = 'Natura Nail Spa';
 
 $key_phrase = 'Santa Monica Nail Salon';
 
-$page_title = '';
+// $page_title = '';
 $canonical_base = 'https://naturanailspa.com/';
-$description = '';
-$keywords = '';
+// $description = '';
+// $keywords = '';
 
-$biz_name = '';
-$biz_phone = '';
-$biz_email = '';
+// $biz_name = '';
+// $biz_phone = '';
+// $biz_email = '';
 
-$geo_reg = '';
-$geo_place = '';
-$geo_pos = '';
-$geo_ICBM = '';
+// $geo_reg = '';
+// $geo_place = '';
+// $geo_pos = '';
+// $geo_ICBM = '';
 ?>

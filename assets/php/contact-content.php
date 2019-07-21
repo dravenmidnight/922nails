@@ -1,3 +1,5 @@
+<link rel="dns-prefetch" href="//maps.googleapis.com">
+<link rel="dns-prefetch" href="//khms1.googleapis.com">
 <div class="container mb-30">
 	<div class="row ">
 		<div class="col-md-3">

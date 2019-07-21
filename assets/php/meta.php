@@ -19,6 +19,7 @@
 
 <!-- DNS Prefetching -->
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//kit.fontawesome.com">
 <link rel="dns-prefetch" href="//www.facebook.com">
 <link rel="dns-prefetch" href="//www.google.com">
 <link rel="dns-prefetch" href="//schema.org">
