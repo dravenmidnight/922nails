@@ -13,11 +13,11 @@
 		include '../assets/php/aside-walk-ins.php';
 	?>
 
-	<p>
+	<!-- <p>
 		<small>
 			Mention 922 when you book your first Mani Pedi <b>to get $5 off</b> your order.
 		</small>
-	</p>
+	</p> -->
 </div>
 <?php
 	include '../assets/php/after-content.php';

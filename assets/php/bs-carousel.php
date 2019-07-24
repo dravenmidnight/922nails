@@ -13,7 +13,7 @@
 			</div>
 			<div class="item" role="banner">
 				<img src="<?php echo $aPATH ?>img/_feet-1440x480.jpg" 
-					alt="Services for healthy feet & toe nails."
+					alt="Services for healthy feet & toenails."
 					class="img-responsive">
 			</div>
 			<div class="item" role="banner">
@@ -22,8 +22,6 @@
 					class="img-responsive">
 			</div>
 		</div>
-
-		<!-- Controls -->
 		<a class="left carousel-control" href="#bs-carousel" role="button" data-slide="prev">
 			<i class="fas fa-chevron-left icon-prev"></i>
 			<span class="sr-only">Previous</span>
@@ -32,13 +30,11 @@
 			<i class="fas fa-chevron-right icon-next"></i>
 			<span class="sr-only">Next</span>
 		</a>
-		
 		<ol class="carousel-indicators">
 			<li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
 			<li data-target="#bs-carousel" data-slide-to="1"></li>
 			<li data-target="#bs-carousel" data-slide-to="2"></li>
 			<li data-target="#bs-carousel" data-slide-to="3"></li>
 		</ol>
-
 	</div>
 </section>

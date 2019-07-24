@@ -1,6 +1,7 @@
 @charset "UTF-8";
 :root {
-  --a-gold: #ab9b5b;
+  --a-gold: #897616;
+  --dark-a-gold: #72611C;
   --btn-green: #507a07;
   --leafy-green: #5f6440;
   --skyblue-gradient: radial-gradient(
@@ -5844,6 +5845,9 @@ ul.payment-total-block li .btn-discount {
   margin-top: 0;
   margin-bottom: 0;
   line-height: normal;
+}
+.footer p.fs-90 > a {
+  color: var(--dark-a-gold);
 }
 
 /* End Footer */

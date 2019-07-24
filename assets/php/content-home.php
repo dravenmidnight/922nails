@@ -2,7 +2,7 @@
 	include 'bs-carousel.php'; 
 ?>
 
-<section>
+<section class="">
 <?php 
 	include 'welcome-content.php'; 
 ?>
