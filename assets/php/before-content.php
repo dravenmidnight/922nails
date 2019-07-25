@@ -3,19 +3,19 @@
 	xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
 <?php
-	include 'meta.php';
+	include_once 'meta.php';
 ?>
 
 	<link rel="stylesheet" href="<?php echo $aPATH ?>css/main.css">
 </head>
 <body class="<?php echo $body_class ?> ">
 <?php
-	include 'top-bar.php';
+	include_once 'top-bar.php';
 ?>
 
 	<header class="masthead">
 <?php
-	include 'nav.php';
+	include_once 'nav.php';
 ?>
 
 	</header>

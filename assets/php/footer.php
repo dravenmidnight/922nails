@@ -56,7 +56,7 @@
 </div>
 
 <div class="container">
-<?php include 'social.php'; ?>
+<?php include_once 'social.php'; ?>
 
 	<hr class="hidden-lg hidden-md">
 	<div class="copyright-info mb-30">

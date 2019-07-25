@@ -1,5 +1,5 @@
 <?php
-	include '../assets/php/before-content.php';
+	include_once '../assets/php/before-content.php';
 ?>
 
 <div class="jumbotron contact">
@@ -8,6 +8,6 @@
 	</div>
 </div>
 <?php
-	include '../assets/php/contact-content.php';
-	include '../assets/php/after-content.php';
+	include_once '../assets/php/contact-content.php';
+	include_once '../assets/php/after-content.php';
 ?>

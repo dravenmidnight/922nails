@@ -46,7 +46,6 @@
 			</div>
 		</a>
 	</div>
-
 	<div class="col-sm-6 col-md-4 col-xs-6 p-0">
 		<a href="<?php echo $aPATH ?>img/gallery/1513654680_24a.jpg" class="gallery-item gallery-item-popup thumbnail" data-group="gallery-1" title="Gallery" itemprop="url">
 			<div class="gallery-box">
@@ -54,7 +53,6 @@
 			</div>
 		</a>
 	</div>
-
 	<div class="col-sm-6 col-md-4 col-xs-6 p-0">
 		<a href="<?php echo $aPATH ?>img/gallery/1513654680_23a.jpg" class="gallery-item gallery-item-popup thumbnail" data-group="gallery-1" title="Gallery" itemprop="url">
 			<div class="gallery-box">
@@ -62,7 +60,6 @@
 			</div>
 		</a>
 	</div>
-
 	<div class="col-sm-6 col-md-4 col-xs-6 p-0">
 		<a href="<?php echo $aPATH ?>img/gallery/1513654680_22a.jpg" class="gallery-item gallery-item-popup thumbnail" data-group="gallery-1" title="Gallery" itemprop="url">
 			<div class="gallery-box">
@@ -70,7 +67,6 @@
 			</div>
 		</a>
 	</div>
-
 	<div class="col-sm-6 col-md-4 col-xs-6 p-0">
 		<a href="<?php echo $aPATH ?>img/gallery/1513654680_21a.jpg" class="gallery-item gallery-item-popup thumbnail" data-group="gallery-1" title="Gallery" itemprop="url">
 			<div class="gallery-box">
@@ -78,7 +74,6 @@
 			</div>
 		</a>
 	</div>
-
 	<div class="col-sm-6 col-md-4 col-xs-6 p-0">
 		<a href="<?php echo $aPATH ?>img/gallery/1513654680_17a.jpg" class="gallery-item gallery-item-popup thumbnail" data-group="gallery-1" title="Gallery" itemprop="url">
 			<div class="gallery-box">
@@ -86,7 +81,6 @@
 			</div>
 		</a>
 	</div>
-
 	<div class="col-sm-6 col-md-4 col-xs-6 p-0">
 		<a href="<?php echo $aPATH ?>img/gallery/1513654680_16a.jpg" class="gallery-item gallery-item-popup thumbnail" data-group="gallery-1" title="Gallery" itemprop="url">
 			<div class="gallery-box">
@@ -94,7 +88,6 @@
 			</div>
 		</a>
 	</div>
-
 	<div class="col-sm-6 col-md-4 col-xs-6 p-0">
 		<a href="<?php echo $aPATH ?>img/gallery/1513654680_15a.jpg" class="gallery-item gallery-item-popup thumbnail" data-group="gallery-1" title="Gallery" itemprop="url">
 			<div class="gallery-box">
@@ -102,7 +95,6 @@
 			</div>
 		</a>
 	</div>
-
 	<div class="col-sm-6 col-md-4 col-xs-12 p-0">
 		<a href="<?php echo $aPATH ?>img/gallery/1513654680_14a.jpg" class="gallery-item gallery-item-popup thumbnail" data-group="gallery-1" title="Gallery" itemprop="url">
 			<div class="gallery-box">

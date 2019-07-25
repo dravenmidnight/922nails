@@ -27,12 +27,7 @@
 		<p>
 			So stop by, sit back &amp; relax in one of our comfy personal sofas while our professional staff pampers you from head to toe, giving you a fresh, revitalizing appearance.
 		</p>
-		<!-- <p>
-			<small>
-				Mention 922 when you book your first Mani Pedi <b>to get $5 off your order.</b>
-			</small>
-		</p> -->
-		<p class="text-center ">
+		<p class="text-center">
 			<a href="https://www.yelp.com/biz/natura-nail-spa-santa-monica-2" class="btn btn-primary btn-lg" target="_blank" rel="noreferrer">
 				<i class="fab fa-yelp"></i>
 				Request an Appointment

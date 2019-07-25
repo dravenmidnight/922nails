@@ -125,3 +125,7 @@
 .carousel-indicators li {
 	border: 1px solid var(--a-gold);
 }
+
+a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
+	border-color: var(--a-gold);
+}

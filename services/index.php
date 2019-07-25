@@ -1,7 +1,7 @@
 <?php
 	// Everything above <main>.
 	// Includes: head, global meta, nav & styles.
-	include '../assets/php/before-content.php';
+	include_once '../assets/php/before-content.php';
 ?>
 
 <div class="jumbotron">
@@ -14,17 +14,17 @@
 	<div class="row">
 		<div class="col-md-6 table-responsive">
 			<?php 
-				include '../assets/php/services-mani-pedi.php'; 
-				include '../assets/php/services-nails.php'; 
-				include '../assets/php/services-add-ons.php'; 
+				include_once '../assets/php/services-mani-pedi.php'; 
+				include_once '../assets/php/services-nails.php'; 
+				include_once '../assets/php/services-add-ons.php'; 
 			?>
 
 		</div>
 		<div class="col-md-6 table-responsive">
 			<?php 
-				include '../assets/php/services-face.php';
-				include '../assets/php/services-polish.php';
-				include '../assets/php/services-wax-massage.php'; 
+				include_once '../assets/php/services-face.php';
+				include_once '../assets/php/services-polish.php';
+				include_once '../assets/php/services-wax-massage.php'; 
 			?>
 
 		</div>
@@ -34,5 +34,5 @@
 <?php
 	// Everything below </main>
 	// Includes: App footer, analytics, etc.
-	include '../assets/php/after-content.php';
+	include_once '../assets/php/after-content.php';
 ?>

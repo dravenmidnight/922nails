@@ -123,19 +123,6 @@ li[role=presentation] p {
   <!-- Nav tabs -->
   <ul class="nav nav-tabs col-lg-6 col-md-6 media-list nav-pills nav-stacked" role="tablist">
     <li role="presentation" class="active media">
-      <!-- <a href="#hands" aria-controls="hands" role="tab" 
-        data-toggle="tab">
-        <div class="media-left tile thumbnail bg-hands"></div>
-        <div class="media-body">
-          <i class="fas fa-bookmark pull-right fa-3x"></i>
-          <h5 class="media-heading">
-            HANDS 
-          </h5>
-          <p>
-            Everyday care for bright &amp; healthy nails.
-          </p>
-        </div>
-      </a> -->
       <div class="media-left">
         <a href="#hands" aria-controls="hands" role="tab" 
           data-toggle="tab" class="tile thumbnail mb-5 bg-hands">

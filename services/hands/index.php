@@ -1,7 +1,7 @@
 <?php
 	// Everything above <main>.
 	// Includes: head, global meta, nav & styles.
-	include '../../assets/php/before-content.php';
+	include_once '../../assets/php/before-content.php';
 ?>
 
 <div class="jumbotron">
@@ -34,5 +34,5 @@
 <?php
 	// Everything below </main>
 	// Includes: App footer, analytics, etc.
-	include '../../assets/php/after-content.php';
+	include_once '../../assets/php/after-content.php';
 ?>

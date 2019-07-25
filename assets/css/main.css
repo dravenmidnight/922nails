@@ -5734,6 +5734,10 @@ ul.payment-total-block li .btn-discount {
   border: 1px solid var(--a-gold);
 }
 
+a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
+  border-color: var(--a-gold);
+}
+
 #popup-banner {
   max-width: 800px;
   margin: 80px auto 40px;
@@ -5846,7 +5850,8 @@ ul.payment-total-block li .btn-discount {
   margin-bottom: 0;
   line-height: normal;
 }
-.footer p.fs-90 > a {
+
+.copyright-info a {
   color: var(--dark-a-gold);
 }
 
