@@ -23,5 +23,5 @@
 <script src="https://kit.fontawesome.com/5815bc3725.js" defer></script>
 <?php 
 	// GOOGLE ANALYTICS
-	// include_once 'ga.php';
+	include_once 'ga.php';
 ?>

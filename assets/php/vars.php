@@ -1,6 +1,7 @@
 <?php
 $rPATH = '/';	// root
 $aPATH = '/assets/';
+$iPATH = '/assets/img/';
 $vPATH = '/assets/php/';	// temp/virtual root
 
 $ga_ID = 'UA-136327369-2';

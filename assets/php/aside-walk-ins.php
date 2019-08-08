@@ -1,4 +1,4 @@
-<aside class="parallax1 introduction mt-30 mb-30">
+<aside class="parallax1 introduction mt-30 mb-30 bg-nailspa">
 	<p class="text-widget">
 		<i class="fa fa-quote-left"></i>
 		&nbsp;

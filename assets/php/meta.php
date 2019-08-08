@@ -18,6 +18,7 @@
 	content="Santa Monica Nail Salon, Nail Salon 90401, 922 Nail Spot, Natura Nails, Nail Salon Wilshire Blvd Santa Monica">
 
 <!-- DNS Prefetching -->
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="dns-prefetch" href="//kit.fontawesome.com">
 <link rel="dns-prefetch" href="//www.facebook.com">
@@ -48,7 +49,7 @@
 <meta property="og:image" 
 	content="">
 <meta property="og:url" 
-	content="contact.html">
+	content="">
 <meta property="og:type" 
 	content="">
 <meta property="og:site_name" 

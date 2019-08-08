@@ -9,7 +9,16 @@
 				Business Hours
 			</h4>
 			<div class="biz-hours">
-				<span class="week-day">Mon-Fri:</span>
+				<span class="week-day">Mon:</span>
+				<span class="open-time">9:30 am</span>
+				<span class="close-time">7:30 pm</span>
+			</div>
+			<div class="biz-hours">
+				<span class="week-day">Tuesdays:</span>
+				<span class="close-time"><i>Closed</i></span>
+			</div>
+			<div class="biz-hours">
+				<span class="week-day">Wed-Fri:</span>
 				<span class="open-time">9:30 am</span>
 				<span class="close-time">7:30 pm</span>
 			</div>

@@ -30,7 +30,7 @@
 				</li>
 				<li itemprop="openingHours" content="Tue 9:30 am - 7:30 pm">
 					<b>Tueday:</b> 
-					<span>9:30 am - 7:30 pm</span>
+					<span>Closed</span>
 				</li>
 				<li itemprop="openingHours" content="Wed 9:30 am - 7:30 pm">
 					<b>Wednesday:</b> 

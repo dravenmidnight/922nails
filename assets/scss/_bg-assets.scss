@@ -1,5 +1,30 @@
 /* BG IMAGES */
 
 .bg-skyblue-gradient {
-	background: var(--skyblue-gradient);
+	background: var(--muted-grey-xpt);
+}
+
+.bg-nailspa {
+
+	&:before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 100%;
+		width: 100%;
+		content: '';
+		z-index: -1;
+		opacity: .75;
+		background: url(../img/_nail-spa.jpg) center center !important;
+		background-size: cover !important;
+		box-sizing: border-box;
+	}
+	
+
+	> .text-widget {
+		color: #fff;
+		// text-shadow: 1px 1px 1px #fff;
+	}
 }
