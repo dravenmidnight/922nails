@@ -28,9 +28,12 @@
 			So stop by, sit back &amp; relax in one of our comfy personal sofas while our professional staff pampers you from head to toe, giving you a fresh, revitalizing appearance.
 		</p>
 		<p class="text-center">
-			<a href="https://www.yelp.com/biz/natura-nail-spa-santa-monica-2" class="btn btn-primary btn-lg" target="_blank" rel="noreferrer">
+			<a href="https://www.yelp.com/biz/natura-nail-spa-santa-monica-2" 
+				class="btn btn-primary btn-lg" 
+				target="_blank" 
+				rel="noreferrer">
 				<i class="fab fa-yelp"></i>
-				Request an Appointment
+				Request Appointment
 			</a>
 		</p>
 		<hr>

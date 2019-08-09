@@ -67,7 +67,7 @@ li[role=presentation] p {
 <div class="row">
   <div class="tab-content col-lg-6 col-md-6">
     <div role="tabpanel" class="tab-pane fade in active" id="hands">
-      <a href="/services/" class="a-block embed-responsive embed-responsive-4by3">
+      <a href="/services#hands" class="a-block embed-responsive embed-responsive-4by3">
         <h4 class="title">
           For Hands
         </h4>
@@ -80,7 +80,7 @@ li[role=presentation] p {
       </a>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="feet">
-      <a href="/services/" class="a-block embed-responsive embed-responsive-4by3">
+      <a href="/services#feet" class="a-block embed-responsive embed-responsive-4by3">
         <h4 class="title">
           For Feet
         </h4>
@@ -93,7 +93,7 @@ li[role=presentation] p {
       </a>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="wax">
-      <a href="/services/" class="a-block embed-responsive embed-responsive-4by3">
+      <a href="/services#wax" class="a-block embed-responsive embed-responsive-4by3">
         <h4 class="title">
           Wax
         </h4>
@@ -106,7 +106,7 @@ li[role=presentation] p {
       </a>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="extras">
-      <a href="/services/" class="a-block embed-responsive embed-responsive-4by3">
+      <a href="/services#extras" class="a-block embed-responsive embed-responsive-4by3">
         <h4 class="title">
           Eyes &amp; Extras
         </h4>

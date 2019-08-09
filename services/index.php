@@ -14,17 +14,16 @@
 	<div class="row">
 		<div class="col-md-6 table-responsive">
 			<?php 
-				include_once '../assets/php/services-mani-pedi.php'; 
-				include_once '../assets/php/services-nails.php'; 
-				include_once '../assets/php/services-add-ons.php'; 
+				include_once '../assets/php/services-hands.php'; 
+				include_once '../assets/php/services-acrylics.php';			
+				include_once '../assets/php/services-wax.php';
 			?>
 
 		</div>
 		<div class="col-md-6 table-responsive">
 			<?php 
-				include_once '../assets/php/services-face.php';
-				include_once '../assets/php/services-polish.php';
-				include_once '../assets/php/services-wax-massage.php'; 
+				include_once '../assets/php/services-feet.php';
+				include_once '../assets/php/services-extras.php'; 
 			?>
 
 		</div>
