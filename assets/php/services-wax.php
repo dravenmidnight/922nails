@@ -1,13 +1,9 @@
 <div id="wax"></div>
+<h3 class="services-heading">Wax</h3>
+<img src="<?php echo $aPATH ?>img/_waxing-600x360.jpg" 
+  class="img-responsive full-width embed-responsive-item" 
+  alt="Waxing Services">
 <table class="table table-hover table-striped">
-	<thead>
-		<td class="lead h3">
-      <img src="<?php echo $aPATH ?>img/_waxing-600x360.jpg" 
-        class="img-responsive full-width embed-responsive-item" 
-        alt="Waxing Services">
-			Wax
-		</td>
-  </thead>
   <tbody>
     <tr>
       <td><strong>Chin, Upper Lip, or Stomach</strong></td>
@@ -45,3 +41,4 @@
   <?php include 'appointment-btn.php'; ?>
 
 </p>
+<hr />

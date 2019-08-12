@@ -1,13 +1,9 @@
 <div id="extras"></div>
+<h3 class="services-heading">Eyes &amp; Extras</h3>
+<img src="<?php echo $aPATH ?>img/_eyes-extras-600x360.jpg" 
+  class="img-responsive full-width embed-responsive-item" 
+  alt="Eyes & Extras">
 <table class="table table-hover table-striped">
-	<thead>
-		<td class="lead h3">
-      <img src="<?php echo $aPATH ?>img/_eyes-extras-600x360.jpg" 
-        class="img-responsive full-width embed-responsive-item" 
-        alt="Eyes & Extras">
-			Eyes &amp; Extras
-		</td>
-  </thead>
   <tbody>
     <tr>
       <td><strong>Eyelash Extensions</strong></td>
@@ -57,3 +53,4 @@
   <?php include 'appointment-btn.php'; ?>
 
 </p>
+<hr />

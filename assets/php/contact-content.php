@@ -69,4 +69,9 @@
 			</div>
 		</div>
 	</div>
+	<hr />
+	<div class="text-center">
+		<?php include 'appointment-btn.php'; ?>
+
+	</div>
 </div>

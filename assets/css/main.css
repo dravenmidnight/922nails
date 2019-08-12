@@ -5758,8 +5758,17 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 }
 
 @media screen and (max-width: 767px) {
-  .table-responsive > .table > thead > tr > th, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tfoot > tr > td {
+  .table-responsive > .table > thead > tr > th,
+.table-responsive > .table > tbody > tr > th,
+.table-responsive > .table > tfoot > tr > th,
+.table-responsive > .table > thead > tr > td,
+.table-responsive > .table > tbody > tr > td,
+.table-responsive > .table > tfoot > tr > td {
     white-space: normal !important;
+  }
+
+  .table-responsive {
+    border-color: transparent !important;
   }
 }
 #popup-banner {
@@ -6030,6 +6039,10 @@ p.text-widget > span {
 }
 .services-list .list-group > li.list-group-item > .badge {
   float: none !important;
+}
+
+.services-heading {
+  padding: 0.5em 0;
 }
 
 /*# sourceMappingURL=main.css.map */

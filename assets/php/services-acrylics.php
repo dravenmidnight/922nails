@@ -1,9 +1,5 @@
+<h3 class="services-heading">Acrylics</h3>
 <table class="table table-hover table-striped">
-	<thead>
-		<td class="lead h3">
-			Acrylics
-		</td>
-	</thead>
   <tbody>
     <tr>
       <td><strong>Acrylic Removal</strong><br></td>
@@ -41,3 +37,4 @@
   <?php include 'appointment-btn.php'; ?>
 
 </p>
+<hr />

@@ -1,13 +1,9 @@
 <div id="feet"></div>
+<h3 class="services-heading">Feet</h3>
+<img src="<?php echo $aPATH ?>img/_feet-600x360.jpg" 
+  class="img-responsive full-width embed-responsive-item" 
+  alt="Services for Feet">
 <table class="table table-hover table-striped">
-	<thead>
-		<td class="lead h3">
-      <img src="<?php echo $aPATH ?>img/_feet-600x360.jpg" 
-        class="img-responsive full-width embed-responsive-item" 
-        alt="Services for Feet">
-			Feet
-		</td>
-  </thead>
   <tbody>
     <tr>
       <td><strong>Classic Natura Pedi</strong> – Softening soak. File, shape, cuticle trim/care, 5-min. foot massage, cuticle oil, and polish.</td>
@@ -66,3 +62,4 @@
   <?php include 'appointment-btn.php'; ?>
 
 </p>
+<hr />

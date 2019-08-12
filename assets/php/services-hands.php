@@ -1,13 +1,9 @@
 <div id="hands"></div>
+<h3 class="services-heading">Hands</h3>
+<img src="<?php echo $aPATH ?>img/_hands-600x360.jpg" 
+	class="img-responsive full-width embed-responsive-item" 
+	alt="Services for Hands">
 <table class="table table-hover table-striped">
-	<thead>
-		<td class="lead h3">
-			<img src="<?php echo $aPATH ?>img/_hands-600x360.jpg" 
-				class="img-responsive full-width embed-responsive-item" 
-				alt="Services for Hands">
-			Hands
-		</td>
-	</thead>
 	<tbody>
 		<tr>
 			<td><strong>Classic Natura Mani</strong> – Softening soak. File, shape, cuticle trim/care, 5-min. hand massage, cuticle oil, and polish.</td>
@@ -63,3 +59,4 @@
   <?php include 'appointment-btn.php'; ?>
 
 </p>
+<hr />
