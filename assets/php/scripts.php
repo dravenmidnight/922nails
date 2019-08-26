@@ -20,8 +20,3 @@
 }
 </style>
 <script src="<?php echo $aPATH ?>js/main.js"></script>
-<script src="https://kit.fontawesome.com/5815bc3725.js" defer></script>
-<?php 
-	// GOOGLE ANALYTICS
-	include_once 'ga.php';
-?>

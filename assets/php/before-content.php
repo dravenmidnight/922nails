@@ -7,6 +7,15 @@
 ?>
 
 	<link rel="stylesheet" href="<?php echo $aPATH ?>css/main.css">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136327369-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136327369-1');
+</script>
 </head>
 <body class="<?php echo $body_class ?> ">
 <?php
